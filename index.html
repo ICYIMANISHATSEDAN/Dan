@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>D REFRESHER ALIMENTATION</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="home-page">
+
+            <img src="owner.jpg" alt="Owner" class="background-image">
+
+            <h1>D REFRESHER ALIMENTATION</h1>
+
+            <h2>You are our priority</h2>
+
+            <button onclick="showLogin('waiter')">Login as Waiter</button>
+
+            <button onclick="showLogin('admin')">Login as Administrator</button>
+
+            <button onclick="showRegister()">Register as Administrator</button>
+
+        </div>
+
+        <div id="login-form" class="login-form">
+
+            <h2 id="login-title"></h2>
+
+            <input type="text" id="username" placeholder="Username">
+
+            <input type="password" id="password" placeholder="Password">
+
+            <button onclick="login()">Login</button>
+
+        </div>
+
+        <div id="register-form" class="register-form">
+
+            <h2>Register as Administrator</h2>
+
+            <input type="text" id="full-names" placeholder="Full Names">
+
+            <input type="text" id="national-id" placeholder="National ID">
+
+            <input type="text" id="birth-district" placeholder="Birth District">
+
+            <input type="text" id="birth-sector" placeholder="Birth Sector">
+
+            <input type="text" id="birth-cell" placeholder="Birth Cell">
+
+            <input type="text" id="birth-village" placeholder="Birth Village">
+
+            <input type="text" id="phone-number" placeholder="Phone Number">
+
+            <input type="email" id="email" placeholder="Email">
+
+            <button onclick="register()">Register</button>
+
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
